@@ -1,5 +1,5 @@
-import 'package:directoryapp/Pages/DetailsForm.dart';
 import 'package:directoryapp/Pages/Home_Page.dart';
+import 'package:directoryapp/Pages/Login_Page.dart';
 import 'package:directoryapp/Utils/Routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(primarySwatch: Colors.brown),
 
       routes: {
-        MyRoutes.initialRoute: (context) => DetailsForm(),
+        MyRoutes.initialRoute: (context) => Login_Page(),
       },
     );
   }
