@@ -15,7 +15,7 @@ class _navigationDrawerState extends State<navigationDrawer> {
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
-        children: <Widget>[\
+        children: <Widget>[
           createDrawerHeader(),
           createDrawerBodyItem(
             icon: Icons.home,
